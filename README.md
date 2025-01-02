@@ -60,7 +60,7 @@ If we leave out the end index, the length of the string will be assumed.<br>
 We can use formatted strings to dynamically insert values into our strings:
 
 ```bash
-name = ‘Mosh’
+name = ‘Abhishek’
 message = f’Hi, my name is {name}’
 message.upper() # to convert to uppercase
 message.lower() # to convert to lowercase
