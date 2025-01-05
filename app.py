@@ -92,9 +92,64 @@ print("python" in course)
 
 # ------------------------ Arithmetic Operations ------------------------ #
 
-""""""
+"""
 print(10**3)
 x = 10
-# x = x + 3
+x = x + 3
 x += 3
+x = (10 + 3) * 2**2
 print(x)
+exponentiation 2**3
+multiplication or division
+addition or subtraction
+
+x = (2 + 3) * 10 - 3
+print(x)
+"""
+
+"""
+import math
+
+print(math.ceil(2.9))
+print(math.floor(2.9))
+print(math.cbrt(2))
+
+x = 2.9
+print(round(x))
+print(abs(-2.9))
+"""
+
+# ------------------------ If Statement ------------------------ #
+
+"""
+if it`s hot
+    It`s a hot day
+    Drink plenty of water
+otherwise if it`s cold
+    It`s a cold day
+    Wear warm clothes
+otherwise
+    It`s a lovely day        
+
+
+is_hot = False
+is_cold = False
+if is_hot:
+    print("It`s a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It`s a cold day")
+    print("Wear warm clothes")
+else:
+    print("It`s a lovely day")
+print("Enjoy your day")
+
+price = 1000000
+has_good_credit = True
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment= 0.2 * price
+print(f"Down payment: ${down_payment}")
+"""
