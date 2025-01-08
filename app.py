@@ -119,7 +119,7 @@ print(round(x))
 print(abs(-2.9))
 """
 
-# ------------------------ If Statement ------------------------ #
+# ------------------------ conditionals Statement ------------------------ #
 
 """
 if it`s hot
@@ -156,3 +156,83 @@ print(f"Down payment: ${down_payment}")
 
 """"""
 
+# ------- Logical operators ------- #
+
+"""
+has_high_income = True
+has_good_credit = True
+
+
+if has_high_income or has_good_credit:
+    print("Eligible for loan")
+
+
+has_good_credit = True
+has_criminal_record = False
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for loan")
+
+temperature = 35
+
+if temperature > 30:
+    print("It`s a hot day")
+else:
+    print("It`s not a hot day")
+"""
+
+# ------- Comparison operators ------- #
+
+"""
+name = "Abhishek Kumar Singh"
+
+if len(name) < 3:
+    print("Name must be at least 3 characters")
+elif len(name) > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+print("Name looks good!")
+
+weight = int(input("Weight: "))
+unit = input("(L)bs or (K)g: ")
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"You are {converted} kilos")
+else:
+    converted = weight / 0.45
+    print(f"You are {converted} pounds")
+"""
+
+# ------------------------ Looping Statement ------------------------ #
+
+""""""
+# i = 1
+# while i <= 5:
+#     print("* " * i)
+#     i = i + 1
+# print("Done")
+
+
+# Number Guessing
+# secret_number = 9
+# guess_count = 0
+# guess_limi = 3
+# while guess_count < guess_limi:
+#     guess = int(input("Guess: "))
+#     guess_count += 1
+#     if guess == secret_number:
+#         print("You won!")
+#         break;
+# else:
+#     print("Soory, you failed!")
+
+
+# Building Car game
+
+command = ""
+while command.lower() != "quit":
+    command = input("> ")
+    if command.lower() == "start":
+        print("Car started...")
+    elif command.lower() == "stop":
+        print("Car stopped.")

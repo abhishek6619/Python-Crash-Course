@@ -1,0 +1,20 @@
+if applicant has high income and has good credit 
+        Eligible for loan
+
+if applicant has high income OR has good credit 
+        Eligible for loan    
+
+if applicant has good credit AND does`t have criminal record
+        Eligible for loan
+
+AND: both
+OR: at least one
+NOT: 
+
+if name is less than 3 characters long
+    name must be at least 3 characters
+otherwise if it`s more than 50 characters long
+    name can be a maximum of 50 characters
+otherwise
+    name looks good!    
+
