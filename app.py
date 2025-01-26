@@ -1,34 +1,35 @@
-// # ------------------------ Varibale ------------------------ #
+# ------------------------ Varibale ------------------------ #
 
-
+"""
 price = 10
 rating = 4.4
 name = "Abhishek"
 is_published = True
 print(price)
+"""
 
-// # Ques: We check in a patient named John Smith. He's 20 years old and is a new patient
+# Ques: We check in a patient named John Smith. He's 20 years old and is a new patient
 """
 full_name = "John Smith"
 age = 20
 is_new_Patient = True
 """
 
-// # ------------------------ Receiving Input ------------------------ #
+# ------------------------ Receiving Input ------------------------ #
 
 """
 name = input("What is yout name? ")
 print("Hi " + name)
 """
 
-// # Ques: Ask two questions: person's name and favourite color. Then, print a message like "Mosh like blue"
+# Ques: Ask two questions: person's name and favourite color. Then, print a message like "Mosh like blue"
 """
 name = input("What is yout name? ")
 favourite_color = input("What is yout favourite color? ")
 print(name + " likes " + favourite_color)
 """
 
-// # ------------------------ Type Conversion ------------------------ #
+# ------------------------ Type Conversion ------------------------ #
 
 """
 birth_year = input("Birth year: ")
@@ -38,7 +39,7 @@ print(type(age))
 print(age)
 """
 
-// # Ques: Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
+# Ques: Ask a user their weight (in pounds), convert it to kilograms and print on the terminal
 
 """
 weight_lbs = float(input("Weight (lbs): "))
@@ -46,7 +47,7 @@ weight_kg = weight_lbs * 0.45
 print(weight_kg)
 """
 
-// # ------------------------ String ------------------------ #
+# ------------------------ String ------------------------ #
 
 """
 # course = '''
@@ -64,7 +65,7 @@ another = course[:]
 print(another)
 """
 
-// # ------- Formatted String ------- #
+# ------- Formatted String ------- #
 
 """
 first = "John"
@@ -76,7 +77,7 @@ print(msg)
 print(message)
 """
 
-// # ------- String Methods ------- #
+# ------- String Methods ------- #
 
 """
 course = "Python for Beginners"
@@ -89,7 +90,7 @@ print(course.replace("P", "J"))
 print("python" in course)
 """
 
-// # ------------------------ Arithmetic Operations ------------------------ #
+# ------------------------ Arithmetic Operations ------------------------ #
 
 """
 print(10**3)
@@ -118,7 +119,7 @@ print(round(x))
 print(abs(-2.9))
 """
 
-// # ------------------------ conditionals Statement ------------------------ #
+# ------------------------ conditionals Statement ------------------------ #
 
 """
 if it`s hot
@@ -155,7 +156,7 @@ print(f"Down payment: ${down_payment}")
 
 """"""
 
-// # ------- Logical operators ------- #
+# ------- Logical operators ------- #
 
 """
 has_high_income = True
@@ -180,7 +181,7 @@ else:
     print("It`s not a hot day")
 """
 
-// # ------- Comparison operators ------- #
+# ------- Comparison operators ------- #
 
 """
 name = "Abhishek Kumar Singh"
@@ -202,7 +203,7 @@ else:
     print(f"You are {converted} pounds")
 """
 
-// # ------------------------ Looping Statement ------------------------ #
+# ------------------------ Looping Statement ------------------------ #
 
 """
 # i = 1
