@@ -3,12 +3,14 @@
 ## Variables
 
 We use variables to temporarily store data in computer’s memory.
+
 ```bash
 price = 10
 rating = 4.9
 course_name = ‘Python for Beginners’
 is_published = True
 ```
+
 In the above example,<br>
 • price is an integer (a whole number without a decimal point)<br>
 • rating is a float (a number with a decimal point)<br>
@@ -18,6 +20,7 @@ In the above example,<br>
 ## Comments
 
 We use comments to add notes to our code. Good comments explain the hows and whys, not what the code does. That should be reflected in the code itself. Use comments to add reminders to yourself or other developers, or also explain your assumptions and the reasons you’ve written code in a certain way.
+
 ```bash
 This is a comment and it won’t get executed.
 Our comments can be multiple lines
@@ -49,6 +52,7 @@ course[-2] # returns the second character from the end
 ```
 
 We can slice a string using a similar notation:<br>
+
 ```bash
 course[1:5]
 ```
@@ -90,12 +94,14 @@ contains = ‘Python’ in course
 ```
 
 Augmented assignment operator:
+
 ```bash
 x = x + 10
 x += 10
 ```
 
 ### Operator precedence:
+
 1. parenthesis
 2. exponentiation
 3. multiplication / division
@@ -111,7 +117,9 @@ print(“cold day”)
 else:
 print(“beautiful day”)
 ```
+
 Logical operators:
+
 ```bash
 if has_high_income and has_good_credit:
 ...
@@ -122,6 +130,7 @@ is_night = not is_day
 ```
 
 ## Comparison operators
+
 ```bash
 a > b
 a >= b (greater than or equal to)
